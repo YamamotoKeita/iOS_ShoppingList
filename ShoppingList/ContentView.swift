@@ -1,19 +1,19 @@
-//
-//  ContentView.swift
-//  ShoppingList
-//
-//  Created by Keita Yamamoto on 2024/10/18.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("counterValue") var counterValue: Int = 0
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            Text("カウンターの値: \(counterValue)")
+                .font(.largeTitle)
+
+            Button(action: {
+                CounterManager.shared.increment()
+            }) {
+                Text("カウンターを増やす")
+                    .font(.title)
+            }
         }
         .padding()
     }

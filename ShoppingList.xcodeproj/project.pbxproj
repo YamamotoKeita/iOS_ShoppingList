@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405887CB2CC248D80011FB51 /* CounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CA2CC248D50011FB51 /* CounterManager.swift */; };
+		405887CD2CC24A320011FB51 /* ShoppingListAppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */; };
+		405887CF2CC24CB80011FB51 /* OpenAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */; };
 		40CEE5852CC244760057B490 /* ShoppingListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5842CC244760057B490 /* ShoppingListApp.swift */; };
 		40CEE5872CC244760057B490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5862CC244760057B490 /* ContentView.swift */; };
 		40CEE5892CC244780057B490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CEE5882CC244780057B490 /* Assets.xcassets */; };
@@ -14,6 +17,8 @@
 		40CEE5962CC244780057B490 /* ShoppingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5952CC244780057B490 /* ShoppingListTests.swift */; };
 		40CEE5A02CC244780057B490 /* ShoppingListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE59F2CC244780057B490 /* ShoppingListUITests.swift */; };
 		40CEE5A22CC244780057B490 /* ShoppingListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5A12CC244780057B490 /* ShoppingListUITestsLaunchTests.swift */; };
+		40CEE5B02CC247F50057B490 /* SampleIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5AF2CC247F50057B490 /* SampleIntent.swift */; };
+		40E3A6C02D02E6280012D893 /* AddItemIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E3A6BF2D02E6240012D893 /* AddItemIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		405887CA2CC248D50011FB51 /* CounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterManager.swift; sourceTree = "<group>"; };
+		405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAppShortcuts.swift; sourceTree = "<group>"; };
+		405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAppIntent.swift; sourceTree = "<group>"; };
 		40CEE5812CC244760057B490 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CEE5842CC244760057B490 /* ShoppingListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListApp.swift; sourceTree = "<group>"; };
 		40CEE5862CC244760057B490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,8 @@
 		40CEE59B2CC244780057B490 /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CEE59F2CC244780057B490 /* ShoppingListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListUITests.swift; sourceTree = "<group>"; };
 		40CEE5A12CC244780057B490 /* ShoppingListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40CEE5AF2CC247F50057B490 /* SampleIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleIntent.swift; sourceTree = "<group>"; };
+		40E3A6BF2D02E6240012D893 /* AddItemIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,9 @@
 		40CEE5832CC244760057B490 /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
+				405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */,
+				405887CA2CC248D50011FB51 /* CounterManager.swift */,
+				40CEE5AE2CC247E40057B490 /* Intent */,
 				40CEE5842CC244760057B490 /* ShoppingListApp.swift */,
 				40CEE5862CC244760057B490 /* ContentView.swift */,
 				40CEE5882CC244780057B490 /* Assets.xcassets */,
@@ -125,6 +138,16 @@
 				40CEE5A12CC244780057B490 /* ShoppingListUITestsLaunchTests.swift */,
 			);
 			path = ShoppingListUITests;
+			sourceTree = "<group>";
+		};
+		40CEE5AE2CC247E40057B490 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				40E3A6BF2D02E6240012D893 /* AddItemIntent.swift */,
+				405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */,
+				40CEE5AF2CC247F50057B490 /* SampleIntent.swift */,
+			);
+			path = Intent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +282,11 @@
 			files = (
 				40CEE5872CC244760057B490 /* ContentView.swift in Sources */,
 				40CEE5852CC244760057B490 /* ShoppingListApp.swift in Sources */,
+				405887CB2CC248D80011FB51 /* CounterManager.swift in Sources */,
+				405887CD2CC24A320011FB51 /* ShoppingListAppShortcuts.swift in Sources */,
+				40CEE5B02CC247F50057B490 /* SampleIntent.swift in Sources */,
+				40E3A6C02D02E6280012D893 /* AddItemIntent.swift in Sources */,
+				405887CF2CC24CB80011FB51 /* OpenAppIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +453,7 @@
 				DEVELOPMENT_TEAM = AM3NFXPYAW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "買い物リスト";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +483,7 @@
 				DEVELOPMENT_TEAM = AM3NFXPYAW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "買い物リスト";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
