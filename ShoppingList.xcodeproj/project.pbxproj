@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402525F82D0C1EAB000970B4 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402525F42D0C1EAB000970B4 /* ShoppingItem.swift */; };
+		402525F92D0C1EAB000970B4 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402525F52D0C1EAB000970B4 /* ShoppingList.swift */; };
+		402525FF2D0C2111000970B4 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402525FE2D0C2110000970B4 /* DIContainer.swift */; };
+		402526012D0C227C000970B4 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402526002D0C227B000970B4 /* Inject.swift */; };
+		402526032D0C22A2000970B4 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402526022D0C22A1000970B4 /* AppDependency.swift */; };
+		405887CB2CC248D80011FB51 /* CounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CA2CC248D50011FB51 /* CounterManager.swift */; };
+		405887CD2CC24A320011FB51 /* ShoppingListAppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */; };
+		405887CF2CC24CB80011FB51 /* OpenAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */; };
 		40CEE5852CC244760057B490 /* ShoppingListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5842CC244760057B490 /* ShoppingListApp.swift */; };
 		40CEE5872CC244760057B490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5862CC244760057B490 /* ContentView.swift */; };
 		40CEE5892CC244780057B490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CEE5882CC244780057B490 /* Assets.xcassets */; };
@@ -14,6 +22,8 @@
 		40CEE5962CC244780057B490 /* ShoppingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5952CC244780057B490 /* ShoppingListTests.swift */; };
 		40CEE5A02CC244780057B490 /* ShoppingListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE59F2CC244780057B490 /* ShoppingListUITests.swift */; };
 		40CEE5A22CC244780057B490 /* ShoppingListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5A12CC244780057B490 /* ShoppingListUITestsLaunchTests.swift */; };
+		40CEE5B02CC247F50057B490 /* SampleIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5AF2CC247F50057B490 /* SampleIntent.swift */; };
+		40E3A6C02D02E6280012D893 /* AddItemIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E3A6BF2D02E6240012D893 /* AddItemIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		402525F42D0C1EAB000970B4 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		402525F52D0C1EAB000970B4 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		402525FE2D0C2110000970B4 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		402526002D0C227B000970B4 /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		402526022D0C22A1000970B4 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		405887CA2CC248D50011FB51 /* CounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterManager.swift; sourceTree = "<group>"; };
+		405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAppShortcuts.swift; sourceTree = "<group>"; };
+		405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAppIntent.swift; sourceTree = "<group>"; };
 		40CEE5812CC244760057B490 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CEE5842CC244760057B490 /* ShoppingListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListApp.swift; sourceTree = "<group>"; };
 		40CEE5862CC244760057B490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +62,8 @@
 		40CEE59B2CC244780057B490 /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CEE59F2CC244780057B490 /* ShoppingListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListUITests.swift; sourceTree = "<group>"; };
 		40CEE5A12CC244780057B490 /* ShoppingListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40CEE5AF2CC247F50057B490 /* SampleIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleIntent.swift; sourceTree = "<group>"; };
+		40E3A6BF2D02E6240012D893 /* AddItemIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402525F62D0C1EAB000970B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				402525F42D0C1EAB000970B4 /* ShoppingItem.swift */,
+				402525F52D0C1EAB000970B4 /* ShoppingList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		402525F72D0C1EAB000970B4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				402525FD2D0C2105000970B4 /* DI */,
+				402525FC2D0C1FAC000970B4 /* UseCase */,
+				402525F62D0C1EAB000970B4 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		402525FB2D0C1EC3000970B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40CEE5862CC244760057B490 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		402525FC2D0C1FAC000970B4 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		402525FD2D0C2105000970B4 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				402526002D0C227B000970B4 /* Inject.swift */,
+				402525FE2D0C2110000970B4 /* DIContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 		40CEE5782CC244760057B490 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +157,11 @@
 		40CEE5832CC244760057B490 /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
+				402525F72D0C1EAB000970B4 /* Domain */,
+				402525FB2D0C1EC3000970B4 /* View */,
+				40CEE5AE2CC247E40057B490 /* Intent */,
 				40CEE5842CC244760057B490 /* ShoppingListApp.swift */,
-				40CEE5862CC244760057B490 /* ContentView.swift */,
+				402526022D0C22A1000970B4 /* AppDependency.swift */,
 				40CEE5882CC244780057B490 /* Assets.xcassets */,
 				40CEE58A2CC244780057B490 /* Preview Content */,
 			);
@@ -125,6 +191,18 @@
 				40CEE5A12CC244780057B490 /* ShoppingListUITestsLaunchTests.swift */,
 			);
 			path = ShoppingListUITests;
+			sourceTree = "<group>";
+		};
+		40CEE5AE2CC247E40057B490 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */,
+				40E3A6BF2D02E6240012D893 /* AddItemIntent.swift */,
+				405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */,
+				40CEE5AF2CC247F50057B490 /* SampleIntent.swift */,
+				405887CA2CC248D50011FB51 /* CounterManager.swift */,
+			);
+			path = Intent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +337,16 @@
 			files = (
 				40CEE5872CC244760057B490 /* ContentView.swift in Sources */,
 				40CEE5852CC244760057B490 /* ShoppingListApp.swift in Sources */,
+				402525FF2D0C2111000970B4 /* DIContainer.swift in Sources */,
+				405887CB2CC248D80011FB51 /* CounterManager.swift in Sources */,
+				405887CD2CC24A320011FB51 /* ShoppingListAppShortcuts.swift in Sources */,
+				40CEE5B02CC247F50057B490 /* SampleIntent.swift in Sources */,
+				402526032D0C22A2000970B4 /* AppDependency.swift in Sources */,
+				402526012D0C227C000970B4 /* Inject.swift in Sources */,
+				402525F82D0C1EAB000970B4 /* ShoppingItem.swift in Sources */,
+				402525F92D0C1EAB000970B4 /* ShoppingList.swift in Sources */,
+				40E3A6C02D02E6280012D893 /* AddItemIntent.swift in Sources */,
+				405887CF2CC24CB80011FB51 /* OpenAppIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +513,7 @@
 				DEVELOPMENT_TEAM = AM3NFXPYAW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "買い物メモ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +543,7 @@
 				DEVELOPMENT_TEAM = AM3NFXPYAW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "買い物メモ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
