@@ -4,14 +4,6 @@ struct ShoppingListAppShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
         return [
             AppShortcut(
-                intent: IncrementCounterIntent(),
-                phrases: [
-                    "\(.applicationName)でカウンターを増やす",
-                ],
-                shortTitle: "カウンター上げる",
-                systemImageName: "takeoutbag.and.cup.and.straw.fill"
-            ),
-            AppShortcut(
                 intent: AddItemIntent(),
                 phrases: [
                     "\(.applicationName)に追加",
