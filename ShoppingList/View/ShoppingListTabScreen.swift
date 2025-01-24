@@ -7,21 +7,28 @@ struct ShoppingListTabScreen: View {
     // TODO 並び替え
     // TODO 削除
     // TODO 追加
-
     // TODO リスト追加
 
     var body: some View {
         VStack {
             Text("買い物メモ")
-            TabView(selection: $selection) {
-                ForEach(Array(allLists.enumerated()), id: \.offset) { index, list in
-                    shoppingListView(list: list)
-                        .tag(index)
-                        .tabItem {
-                            Label(list.name,
-                                  systemImage: "1.circle")
-                        }
+            ZStack(alignment: .bottomTrailing) {
+                TabView(selection: $selection) {
+                    ForEach(Array(allLists.enumerated()), id: \.offset) { index, list in
+                        shoppingListView(list: list)
+                            .tag(index)
+                    }
+                    .onDelete { indexSet in
+                    }
+                    .onMove { indices, newOffset in
+                    }
                 }
+
+                FloatingActionButton {
+
+                }
+                .padding(.horizontal, 20)
+                .padding(.vertical, 20)
             }
         }
     }
@@ -30,9 +37,20 @@ struct ShoppingListTabScreen: View {
         ZStack {
             List {
                 ForEach(list.items, id: \.name) { item in
-                    Text(item.name)
+                    itemRow(item: item)
                 }
             }
+            .toolbar {
+                EditButton()
+            }
+        }
+    }
+
+    func itemRow(item: ShoppingItem) -> some View {
+        HStack {
+            Text(item.name)
+            Spacer()
+
         }
     }
 }

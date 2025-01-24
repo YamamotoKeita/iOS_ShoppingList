@@ -15,6 +15,7 @@
 		405887CD2CC24A320011FB51 /* ShoppingListAppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */; };
 		405887CF2CC24CB80011FB51 /* OpenAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */; };
 		40C0BA5C2D3106A2004CE9B5 /* ShoppingListTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0BA5B2D31069F004CE9B5 /* ShoppingListTabScreen.swift */; };
+		40C0BA602D436291004CE9B5 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0BA5F2D43628C004CE9B5 /* FloatingActionButton.swift */; };
 		40CEE5852CC244760057B490 /* ShoppingListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEE5842CC244760057B490 /* ShoppingListApp.swift */; };
 		40CEE5892CC244780057B490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CEE5882CC244780057B490 /* Assets.xcassets */; };
 		40CEE58C2CC244780057B490 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CEE58B2CC244780057B490 /* Preview Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		405887CC2CC24A2E0011FB51 /* ShoppingListAppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAppShortcuts.swift; sourceTree = "<group>"; };
 		405887CE2CC24CB60011FB51 /* OpenAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAppIntent.swift; sourceTree = "<group>"; };
 		40C0BA5B2D31069F004CE9B5 /* ShoppingListTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTabScreen.swift; sourceTree = "<group>"; };
+		40C0BA5F2D43628C004CE9B5 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
 		40CEE5812CC244760057B490 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CEE5842CC244760057B490 /* ShoppingListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListApp.swift; sourceTree = "<group>"; };
 		40CEE5882CC244780057B490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		402525FB2D0C1EC3000970B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				40C0BA5F2D43628C004CE9B5 /* FloatingActionButton.swift */,
 				40C0BA5B2D31069F004CE9B5 /* ShoppingListTabScreen.swift */,
 			);
 			path = View;
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C0BA602D436291004CE9B5 /* FloatingActionButton.swift in Sources */,
 				40CEE5852CC244760057B490 /* ShoppingListApp.swift in Sources */,
 				402525FF2D0C2111000970B4 /* DIContainer.swift in Sources */,
 				40C0BA5C2D3106A2004CE9B5 /* ShoppingListTabScreen.swift in Sources */,
